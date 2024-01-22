@@ -14,3 +14,9 @@ def check(numbers):
       
     elif first_number != last_number:
         return  False
+
+#these are the given variable that needs to check if they're the same or not    
+numbers_first= [70, 56, 45, 28, 70]
+print('The result is', check (numbers_first))
+numbers_second = [90, 20, 10, 80, 60]
+print('The result is', check (numbers_second))
